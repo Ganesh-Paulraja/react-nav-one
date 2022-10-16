@@ -1,0 +1,31 @@
+.box{
+    width: 200px;
+    background: linear-gradient(92.49deg, rgba(0, 117, 255, 0.5) 2.01%, rgba(255, 192, 203, 0.5) 47.96%, rgba(255, 255, 0, 0.5) 97.91%);
+    height: 250px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.box:hover{
+    /* transform: translate(-10px,-10px); */
+    transform: scale(1.1);
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+.box img{
+    width: 100%;
+    max-height: 200px;
+    border: 1px solid #FA45BE;
+}
+.box p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.list{
+    width: 100%;
+    border: 2px solid #FA45BE;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: 1140px;
+    overflow: hidden;
+}

@@ -1,0 +1,23 @@
+.buttons button{
+    background: linear-gradient(90deg, #EC70F8 0%, #A859FA 100%);  
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    width: 230px;
+    font-family: 'Rosarivo', serif;
+    color: white;
+    border: 2px solid #FE45B7;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.buttons button:active{
+    border-color: black;
+}
+.buttons button:hover{
+    opacity: 85%;
+}
+.buttons button:last-child{
+    background: linear-gradient(90deg, #A95AFA 0%, #FE45B7 100%);
+}

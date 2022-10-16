@@ -1,0 +1,20 @@
+nav{
+    background: linear-gradient(90deg, #CA4CDD 0%, rgba(219, 0, 255, 0.5) 13.54%, #FF44B4 42.09%, rgba(112, 0, 255, 0.61) 100%) !important;
+    opacity: 100%;
+    
+}
+.navbar-brand{
+    font-family: 'Romanesco', cursive;
+    font-size: 34px;
+}
+ li a{
+    font-family: 'Niconne', cursive !important;
+    font-size: 20px;
+    margin: 0 20px;
+    width: fit-content !important;
+}
+#nav{
+    position: sticky;
+    top: 0;
+    
+}
